@@ -7,5 +7,7 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Say Hello
-        run: echo "Hello, Faizan! 🎉"
+      - name: run multiple echo
+        run: |
+          echo "Hello, Faizan!🎉"
+          echo "Hello, Furqan"
