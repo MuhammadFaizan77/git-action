@@ -1,4 +1,4 @@
-name: Hello World Workflow
+name: Run multiples jobs at a time
 
 on:
   workflow_dispatch:
